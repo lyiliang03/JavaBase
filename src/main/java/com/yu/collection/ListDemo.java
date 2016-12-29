@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Vector;
 import java.util.List;
 /**
- * Created by kevin on 2016/12/29.
+ * Created by kevin on 2016/12/28
  *如果涉及到“栈”、“队列”、“链表”等操作，请优先考虑用List。至于是那个List则分如下：
  1、对于需要快速插入、删除元素，则需使用LinkedList..
  2、对于需要快速访问元素，则需使用ArrayList。
