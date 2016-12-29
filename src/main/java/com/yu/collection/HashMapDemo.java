@@ -16,13 +16,13 @@ public class HashMapDemo {
         System.out.println(hashMap.isEmpty());
         System.out.println(hashMap.size());
         System.out.println(hashMap);
-        hashMap.remove("fr");
+        hashMap.remove("jp");
         System.out.println(hashMap.toString());
         System.out.println("cn:"+hashMap.values());
         System.out.println("cn:"+hashMap.containsKey("cn"));
         System.out.println("cn:"+hashMap.get("cn"));
         System.out.println("cn:"+hashMap.keySet());
-        //采用Iterator遍历HashMap
+        //采用Iterator
         Iterator it=hashMap.keySet().iterator();
        while(it.hasNext()){
            String key=(String)it.next();
